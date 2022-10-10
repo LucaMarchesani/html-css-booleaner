@@ -8,7 +8,21 @@
 
 .logo{
     position: absolute;
-    bottom: 1px;
+    bottom: 0.5em;
     width: 12em;
 }
 
+.article-title{
+    font-family: 'Source Serif Pro', serif;
+    font-size: xx-large;
+}
+
+.article-author{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1em;
+    color: rgb(154, 150, 150);
+}
+
+.author{
+    color: #4ea0ff;
+}
