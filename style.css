@@ -33,3 +33,27 @@
 .photo-authors{
     font-size: small;
 }
+
+.yellow{
+    background-color: yellow;
+}
+
+h2{
+    color: rgb(154, 150, 150);
+}
+
+h3{
+    color: rgb(255, 255, 255);
+}
+
+.monitor-pic{
+    width: 312px;
+    height: 208px;
+    background-image:url(./img/monitor.jpg);
+}
+
+.graph-pic{
+    width: 312px;
+    height: 208px;
+    background-image: url(./img/graph.jpg);
+}
