@@ -1,58 +1,108 @@
 *{
-    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
 }
+
 #header-box{
     position: relative;
-    background: #4ea0ff url(./img/pattern.png);
     width: 100%;
-    height: 7em;
+    height: 120px;
+    background-color: #4ea0ff;
+    background-image: url(./img/pattern.png);
     background-position: center;
 }
 
 .logo{
     position: absolute;
-    bottom: 0.5em;
-    width: 12em;
+    bottom: 5px;
+    margin-left: 10px;
+    width: 250px;
 }
 
-.article-title{
-    font-family: 'Source Serif Pro', serif;
-    font-size: xx-large;
+main, footer{
+    margin-left: 10px;
 }
 
-.article-author{
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1em;
-    color: rgb(154, 150, 150);
+.article-header{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#info-article{
+    color: #8c8c8c;
 }
 
 .author{
+    font-weight: 600;
+}
+
+.blue{
     color: #4ea0ff;
 }
 
 .photo-authors{
-    font-size: small;
+    font-size: 10px;
+    font-weight: 600;
 }
 
 .yellow{
-    background-color: yellow;
+    background-color: rgb(246, 246, 7);
 }
 
-h2{
-    color: rgb(154, 150, 150);
+p{
+    margin-top: 30px;
+    font-weight: 600;
 }
 
-h3{
-    color: rgb(255, 255, 255);
+ul{
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
 }
 
-.monitor-pic{
+table{
+    font-weight: 600;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: left;
+    background-color: #20a9e5;
+}
+
+.lorem{
+    width: 50%;
+    height: auto;
+}
+
+.lightblue{
+    background-color: #b1e5f2;
+}
+
+h4{
+    font-size: large;
+    margin-top: 35px;
+    color: #8f8f8f;
+    font-weight: 600;
+}
+
+.more-info{
+    font-weight: 600;
+    color: #f6f2f2;
+}
+
+.monitor{
     width: 312px;
     height: 208px;
-    background-image:url(./img/monitor.jpg);
+    background-image: url(./img/monitor.jpg);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
-.graph-pic{
+.graph{
     width: 312px;
     height: 208px;
     background-image: url(./img/graph.jpg);
